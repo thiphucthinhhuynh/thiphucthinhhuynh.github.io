@@ -9,12 +9,15 @@ function Navigation({ isLoaded }) {
     return (
         <div className="navigation">
             <div>
-                <Link to="/"><img id="app-logo" src="https://images2.imgbox.com/f8/c8/9GyIU1ay_o.jpg" alt="Cozy Inn Logo" /></Link>
+                <h2>Thi Phuc Thinh Huynh</h2>
             </div>
 
             <div>
-                {isLoaded && sessionUser && <Link to="/spots/new" className="create-spot-link">Create a New Spot</Link>}
-                {isLoaded && <ProfileButton className="profile-button" user={sessionUser} />}
+                <div>ABOUT</div>
+                <div>PROJECTS</div>
+                <div>SKILLS</div>
+                <div>CONTACT</div>
+                <div>CONNECT ON LINKEDIN</div>
             </div>
         </div>
     );
