@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import ProfileButton from './ProfileButton';
 import './Navigation.css';
 
 function Navigation({ isLoaded }) {
@@ -8,16 +7,13 @@ function Navigation({ isLoaded }) {
 
     return (
         <div className="navigation">
-            <div>
-                <h2>Thi Phuc Thinh Huynh</h2>
-            </div>
+            <p>Thi Phuc Thinh Huynh</p>
 
-            <div>
+            <div className="navigation-menu">
                 <div>ABOUT</div>
                 <div>PROJECTS</div>
                 <div>SKILLS</div>
                 <div>CONTACT</div>
-                <div>CONNECT ON LINKEDIN</div>
             </div>
         </div>
     );

@@ -2,8 +2,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Hi from Projects</h1>
+        <div className="project-section">
             <p>PROJECTS</p>
         </div>
     );
