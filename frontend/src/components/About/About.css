@@ -1,5 +1,8 @@
-
-
 .about-section>:first-child {
     font-size: 2vw;
+}
+
+p:nth-child(2) {
+    /* color: #00d40b; */
+    color: #EE3984;
 }

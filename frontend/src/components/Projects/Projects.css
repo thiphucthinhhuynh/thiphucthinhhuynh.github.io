@@ -1,5 +1,36 @@
-
-
 .project-section {
     font-size: 2vw;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4vh;
+}
+
+#nooknet,
+#tumblr {
+    max-width: 45%;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+#nooknet img,
+#tumblr img {
+    max-width: 100%;
+}
+
+.button-container {
+    border-top: 1px solid rgb(201, 201, 201);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+#nooknet button,
+#tumblr button {
+    border: none;
+    padding: 1.5vh 3vh;
 }

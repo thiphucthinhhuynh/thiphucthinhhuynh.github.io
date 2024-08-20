@@ -1,6 +1,20 @@
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.icon {
+    width: 1.8vw;
+    height: 1.8vw;
+    padding: 0.5em;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 4px;
+}
 
 
 .contact-section>:first-child {
-    text-align: center;
     font-size: 2vw;
 }

@@ -5,12 +5,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: transparent;
+    background-color: #FFFFFFB3;
     border-bottom: 1px solid rgb(54, 54, 54);
 }
 
 .navigation>:first-child {
     font-size: 1.8vw;
+    color: #EE3984;
 }
 
 .navigation-menu {
