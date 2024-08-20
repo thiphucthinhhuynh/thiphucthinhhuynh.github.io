@@ -4,32 +4,51 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Projects = () => {
     return (
-        <div className="project-section">
-            <p>PROJECTS</p>
+        <section id="projects">
+            <div className="project-section">
+                <p>PROJECTS</p>
 
-            <div className="project-container">
-                <div id="nooknet">
-                    <img src="https://i.imghippo.com/files/zNdTO1724134424.png" alt="Nooknet" />
-                    <p className="name">Nooknet</p>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <div className="button-container">
-                        <button><BsGithub /> CODE</button>
-                        <button><BsBoxArrowUpRight /> LIVE</button>
+                <div className="project-container">
+                    <div id="nooknet">
+                        <img src="https://i.imghippo.com/files/zNdTO1724134424.png" alt="Nooknet" />
+                        <p className="name">Nooknet</p>
+                        <p className="description">Nooknet is an eCommerce website inspired by Nookazon for trading in-game items.
+                            I built a comprehensive backend with <strong>Express</strong>, managing stores and items through secure <strong>APIs</strong> with authentication and validation.
+                            Using <strong>Sequelize</strong>, I optimized data interactions and complex relationships in <strong>PostgreSQL</strong>, while the <strong>React</strong> frontend offers seamless navigation, item management, and responsive design using <strong>CSS</strong> grid and flexbox.
+                        </p>
+                        <div className="button-container">
+                            <a href="https://github.com/thiphucthinhhuynh/nooknet" target="_blank" rel="noopener noreferrer">
+                                <button><BsGithub />    CODE</button>
+                            </a>
+                            <a href="https://nooknet.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                <button><BsBoxArrowUpRight />   LIVE</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="tumblr">
+                        <img src="https://i.imghippo.com/files/9DMVW1724134432.png" alt="Tumblr-Project" />
+                        <p className="name">Tumblr-Project</p>
+                        <p className="description">Tumblr-Project is a collaborative effort to recreate Tumblr’s functionality.
+                            I developed secure <strong>Flask</strong> routes for posts and comments, leveraging <strong>SQLAlchemy</strong> for database integrity and <strong>Redux</strong> for efficient state management.
+                            Working with two teammates, I handled <strong>CRUD</strong> operations and utilized <strong>Git</strong> for smooth code integration.
+                            <br />
+                            <br />
+                            <br />
+                        </p>
+                        <div className="button-container">
+                            <a href="https://github.com/thiphucthinhhuynh/Tumblr-Project" target="_blank" rel="noopener noreferrer">
+                                <button><BsGithub />    CODE</button>
+                            </a>
+                            <a href="https://tumblr-project.onrender.com/" target="_blank" rel="noopener noreferrer">
+                                <button><BsBoxArrowUpRight />   LIVE</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div id="tumblr">
-                    <img src="https://i.imghippo.com/files/9DMVW1724134432.png" alt="Tumblr-Project" />
-                    <p className="name">Tumblr-Project</p>
-                    <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <div className="button-container">
-                        <button><BsGithub /> CODE</button>
-                        <button><BsBoxArrowUpRight /> LIVE</button>
-                    </div>
-                </div>
             </div>
-
-        </div>
+        </section>
     );
 };
 

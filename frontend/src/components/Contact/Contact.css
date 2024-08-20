@@ -1,9 +1,13 @@
+.contact-section {
+    margin-top: 10vh;
+}
+
 .icon-container {
     display: flex;
     flex-direction: row;
     gap: 0.9rem;
     width: 100%;
-    margin-left: 5%;
+    margin: 2vw 2.8vw;
 }
 
 .icon {
@@ -14,7 +18,7 @@
     border-radius: 4px;
 }
 
-
 .contact-section>:first-child {
     font-size: 2vw;
+    margin-left: 2.8vw;
 }

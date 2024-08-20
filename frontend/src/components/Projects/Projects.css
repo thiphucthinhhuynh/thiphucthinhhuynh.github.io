@@ -1,5 +1,10 @@
 .project-section {
+    margin: 10vh 0;
     font-size: 2vw;
+}
+
+.project-section>:first-child {
+    margin-left: 2.8vw;
 }
 
 .project-container {

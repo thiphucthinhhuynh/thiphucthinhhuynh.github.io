@@ -5,7 +5,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #FFFFFFB3;
+    /* background-color: #FFFFFFB3; */
+    background-color: #ffffffde;
     border-bottom: 1px solid rgb(54, 54, 54);
 }
 
@@ -18,5 +19,18 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 2vw
+    gap: 2vw;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 120px; /* Add the top margin so that the section won't be covered by the navigation bar */
 }
