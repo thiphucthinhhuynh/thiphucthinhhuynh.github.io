@@ -2,7 +2,11 @@
     font-size: 2vw;
 }
 
-p:nth-child(2) {
+.about-section p:nth-child(2) {
     /* color: #00d40b; */
     color: #EE3984;
+}
+
+p:nth-child(3) {
+    font-size: 1.5vw;
 }
