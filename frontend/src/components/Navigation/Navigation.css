@@ -8,11 +8,13 @@
     /* background-color: #FFFFFFB3; */
     background-color: #ffffffde;
     border-bottom: 1px solid rgb(54, 54, 54);
+    z-index: 100;
 }
 
 .navigation>:first-child {
-    font-size: 1.8vw;
-    color: #EE3984;
+    font-size: 1.9vw;
+    font-weight: 350;
+    /* color: #EE3984; */
 }
 
 .navigation-menu {
@@ -25,6 +27,10 @@
 .navigation a {
     text-decoration: none;
     color: black;
+}
+
+.navigation a:hover {
+    font-weight: bold;
 }
 
 html {

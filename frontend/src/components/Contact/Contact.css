@@ -1,5 +1,10 @@
-.contact-section {
+section#contact {
     margin-top: 10vh;
+}
+
+section#contact>:first-child {
+    font-size: 2vw;
+    margin-left: 2.8vw;
 }
 
 .icon-container {
@@ -18,7 +23,6 @@
     border-radius: 4px;
 }
 
-.contact-section>:first-child {
-    font-size: 2vw;
-    margin-left: 2.8vw;
+.icon:hover {
+    border: 1px solid rgb(255, 116, 178);
 }

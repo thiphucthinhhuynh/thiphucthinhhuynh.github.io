@@ -1,9 +1,9 @@
-.project-section {
+section#projects {
     margin: 10vh 0;
     font-size: 2vw;
 }
 
-.project-section>:first-child {
+section#projects>:first-child {
     margin-left: 2.8vw;
 }
 
@@ -14,12 +14,14 @@
     flex-wrap: wrap;
 }
 
-#nooknet, #tumblr {
+#nooknet,
+#tumblr {
     max-width: 45%;
     border: 1px solid rgb(201, 201, 201);
 }
 
-#nooknet img, #tumblr img {
+#nooknet img,
+#tumblr img {
     max-width: 100%;
 }
 
@@ -33,7 +35,13 @@
     padding: 15px;
 }
 
-#nooknet button, #tumblr button {
+.button-container button:hover {
+    color: white;
+    background-color: black;
+}
+
+#nooknet button,
+#tumblr button {
     border: none;
     padding: 1.5vh 3vh;
 }
@@ -46,4 +54,6 @@
 
 .description {
     padding: 0 2.5vw;
+    font-size: 0.8em;
+    height: 30%;
 }

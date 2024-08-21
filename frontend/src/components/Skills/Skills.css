@@ -1,3 +1,8 @@
+section#skills>:first-child {
+    text-align: center;
+    font-size: 2vw;
+}
+
 .tech-logo {
     max-width: 20%;
     display: flex;
@@ -19,10 +24,4 @@
 
 .skill-container > * {
     min-width: 20%;
-}
-
-
-.skill-section>:first-child {
-    text-align: center;
-    font-size: 2vw;
 }

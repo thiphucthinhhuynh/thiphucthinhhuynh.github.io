@@ -4,7 +4,7 @@ function Navigation() {
 
     return (
         <div className="navigation">
-            <p>Thi Phuc Thinh Huynh</p>
+            <p>Thi Huynh</p>
 
             <div className="navigation-menu">
                 <a href="#about">ABOUT</a>
